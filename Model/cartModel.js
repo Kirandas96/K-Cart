@@ -18,7 +18,8 @@ const cartSchema=new Schema({
                 min:[1,'Min quantity is 1'],
                 default:1
             },
-            price:Number
+            price:Number,
+            addedDate:Date
         }
     ],
     bill:{
